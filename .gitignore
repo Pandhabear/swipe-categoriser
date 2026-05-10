@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Build output (we deploy dist/ separately, don't commit it to main)
+dist/
+
+# Vite cache
+.vite/
+
+# Mac junk
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Env files (never commit secrets)
+.env
+.env.local
+.env.production
+.env*.local
